@@ -1,6 +1,4 @@
-/**
- * Created by aarnavjindal on 07/05/20.
- */
+
 
 export { Trie }
 
@@ -52,7 +50,7 @@ class Trie {
     }
 
     findAll(node){
-        // Contact leaf node
+        
         if(node===null)
             return;
 
